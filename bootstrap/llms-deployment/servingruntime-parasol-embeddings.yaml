@@ -20,7 +20,7 @@ spec:
     - args:
         - '--model_path=/mnt/models'
         - '--trust_remote_code=True'
-      image: 'quay.io/rh-aiservices-bu/sbert-runtime:1.1.0'
+      image: 'quay.io/rh-aiservices-bu/sbert-runtime:1.2.0'
       name: kserve-container
       ports:
         - containerPort: 8080
